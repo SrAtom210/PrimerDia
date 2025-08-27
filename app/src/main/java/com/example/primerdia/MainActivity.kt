@@ -1,3 +1,4 @@
+//22130802
 package com.example.primerdia
 
 import android.os.Bundle
@@ -19,10 +20,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PrimerDiaTheme {
-                //Felipe de Jesus Gonzalez Molina
-                //2 2 1 3 0 8 0 2
-                //Desarrollo de aplicaciones en Android
-                //2025
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
